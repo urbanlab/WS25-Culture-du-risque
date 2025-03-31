@@ -1,0 +1,43 @@
+.message-history {
+  background: var(--orange);
+  flex: none;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 24px;
+  padding: 28px;
+  border-bottom: 3px solid var(--white);
+}
+.title-icon {
+  width: 42px;
+  height: 42px;
+  margin-right: 16px;
+}
+
+.history-list {
+  margin: 13px 29px 29px 29px;
+}
+
+.history-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--white);
+}
+
+.message-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.message-emitter {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}

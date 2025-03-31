@@ -1,0 +1,83 @@
+.control-room {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: left;
+  height: 100%;
+}
+
+.message-history-panel {
+  width: 380px;
+  flex: none;
+  height: 100vh;
+  background: var(--orange);
+}
+
+.forms-container {
+  margin: 100px 75px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.forms-instruction {
+  font-size: 40px;
+}
+
+.forms-sources {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 21px;
+}
+
+.forms-inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.forms-message {
+  min-height: 200px;
+}
+
+.forms-button {
+  width: 150px;
+  align-self: flex-end;
+}
+
+/* CARDS */
+.card-container {
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border: 1px solid var(--black-low-opacity);
+  border-radius: 12px;
+  padding: 16px;
+}
+.card-container-selected {
+  border: 1px solid var(--black);
+}
+
+.card-container:hover {
+  border: 1px solid var(--black);
+}
+
+.card-icon {
+  align-self: center;
+  width: 48px;
+  height: 48px;
+  margin: 24px 0px;
+}
+
+.card-label {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.card-description {
+  font-size: 12px;
+  color: var(--light-gray);
+}
