@@ -1,5 +1,5 @@
 const config = {
-    VBASE_URL: "https://culturedurisque-ws.projets.erasme.org",
+    BASE_URL: "https://api-culturedurisque-ws.projets.erasme.org",
     COLLECTION: "messages",
 }
 
