@@ -1,5 +1,5 @@
 const config = {
-    BASE_URL: "http://127.0.0.1:8090",
+    VBASE_URL: "https://culturedurisque-ws.projets.erasme.org",
     COLLECTION: "messages",
 }
 
