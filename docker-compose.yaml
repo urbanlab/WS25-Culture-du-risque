@@ -1,8 +1,7 @@
-version: '3.7'
 services:
   backend-dev:
     image: erasme/ws25-culture-du-risque-db:latest
-    build: db/
+    build: ./db/
     ports:
       - "8090:8090"
     volumes:
@@ -11,10 +10,8 @@ services:
   frontend-dev:
     image: erasme/ws25-culture-du-risque-front:latest
     build: 
-      context: front/
+      context: ./front/
     volumes:
       - ./front/src/:/app/src
     ports:
       - "5173:5173" #keep same port to avoid Cross scripting errors
-    env_file:
-      - .env
